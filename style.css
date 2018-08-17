@@ -1,8 +1,24 @@
+p {
+    text-align: left;
+}
+h2 {
+    color: #4aaaa5;
+}
+
+
+
 img {
-    height:200px;
+    height: 200px;
     width: 200px;
+    float: left;
     position: absolute;
-    left: -250px;
+    left: -200px;
+    padding: 20px;
+}
+
+body {
+    background-color: #dddddd;
+    width: 500px;
 }
     
 
@@ -11,13 +27,14 @@ div {
     position: fixed;
     top: 150px;
     left: 400px;
+    text-align: left;
 }
 h1 {
     background-color: #4aaaa5;
     color: #ffffff;
     width: 200px;
     right: 500px;
-    margin-left: 85px;
+    margin-left: 25px;
 }
 a {
     
@@ -31,18 +48,21 @@ a {
     top: 0px;
     position: absolute; 
     right: 5000px;
+    padding: 20px;
     
 }
 
 .about {
-    width: 1066px;
-    background-color: #dddddd;
+    width: 966px;
+    background-color: #ffffff;
     border: 5px solid black;
-    margin: -10px;
-    padding: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 200px 100px;
     position: absolute;
     left: 25px;
     right: 25px;
+    text-align: center;
 }
 
 .me {
@@ -50,6 +70,20 @@ a {
     top: 80px;
     left: 150px
 }
+.html {
+    margin: 0px;
+
+}
+footer {
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    background-color: #666666;
+    border: 5px;
+    width: 2000px;
+}
+
+
 
 
 

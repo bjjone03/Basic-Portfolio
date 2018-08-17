@@ -1,0 +1,23 @@
+body {
+    background-color: #ddddddfd;
+    width: 500px;
+}
+
+h1 {
+    color: #4aaaa5;
+}
+h2 {
+    color: #4aaaa5; 
+}
+footer {
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    background-color: #666666;
+    border: 5px;
+    width: 2000px;
+}
+button {
+    background-color: #4aaaa5;
+    color: white;
+}
