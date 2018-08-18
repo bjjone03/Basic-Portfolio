@@ -5,13 +5,20 @@ div {
 }
 
 h1 {
+    position: relative;
     background-color: #4aaaa5;
     color: aliceblue;
     border: 1px;
+    width: 200px;
+    right: 00px;
+    left: 350px;
 }
 
 h2 {
+    position: relative;
     color: #4aaaa5;
+    right: 00px;
+    left: 350px;
 }
 
 footer {
@@ -24,4 +31,26 @@ footer {
 }
 body {
     background-color: lightgray;
+} 
+
+.bobby {
+    border: 20px ;
+    width: 800px;color: azure;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    height: 450px;
+    right: 55px;
+    left: 55px;
 }
+
+.links {
+    border: 5px;
+    position: absolute;
+    right:10;
+}
+
+
+    
+
+
